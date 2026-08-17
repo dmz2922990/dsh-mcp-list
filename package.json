@@ -1,0 +1,19 @@
+{
+  "name": "dsh-mcp-list",
+  "description": "DSH web plugin: an MCP settings page listing mounted MCP servers, per-tool call counts, and a shortcut to open the MCP patch config",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "client": {
+      "platform": "web"
+    }
+  },
+  "keywords": ["dsh", "deepseek-harness", "mcp", "settings"],
+  "license": "MIT"
+}
