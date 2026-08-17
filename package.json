@@ -15,5 +15,18 @@
     }
   },
   "keywords": ["dsh", "deepseek-harness", "mcp", "settings"],
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmz2922990/dsh-mcp-list.git"
+  },
+  "author": "dmz2922990",
+  "bugs": {
+    "url": "https://github.com/dmz2922990/dsh-mcp-list/issues"
+  },
+  "homepage": "https://github.com/dmz2922990/dsh-mcp-list#readme",
+  "files": [
+    "lib",
+    "README.md"
+  ]
 }
